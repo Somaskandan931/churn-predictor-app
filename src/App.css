@@ -1,0 +1,41 @@
+.App {
+  max-width: 800px;
+  margin: 2rem auto;
+  font-family: Arial, sans-serif;
+}
+
+form.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.form-item label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+button {
+  grid-column: span 2;
+  padding: 0.75rem;
+  font-size: 1rem;
+  background: #0066ff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.result-card {
+  background: #f4f4f4;
+  padding: 1rem;
+  border-left: 4px solid #0066ff;
+}
